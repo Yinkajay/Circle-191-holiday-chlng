@@ -42,6 +42,13 @@ function greeting() {
   document.getElementsByClassName("second-p")[0].innerText = "Hello, " + (document.getElementById("firstName").value) + " , your mobile number is " + (document.getElementById("phoneNumber").value)
 }
 
+let airtel = "https://seeklogo.com/images/A/airtel-logo-439F62AEA0-seeklogo.com.png";
+let mtn = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/MTN_Logo.svg/2048px-MTN_Logo.svg.png";
+let glo = "https://brandcom.ng/wp-content/uploads/2020/11/Glo-Logo.jpg";
+let 9mobile = "https://www.currentschoolnews.com/wp-content/uploads/2020/08/9mobile.jpg";
+let unknown = "https://images.unsplash.com/photo-1599508704512-2f19efd1e35f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cXVlc3Rpb24lMjBtYXJrfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60";
+
+
 // Function to determine the network from the users input
 function getNetwork(Number) {
   greeting()
@@ -49,7 +56,7 @@ function getNetwork(Number) {
     if (Number[1] == 7) {
       switch (Number[3]) {
         case "1":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
         case "3":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
@@ -61,7 +68,7 @@ function getNetwork(Number) {
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
           break;
         case "8":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
 
         default:
@@ -71,7 +78,7 @@ function getNetwork(Number) {
     } else if (Number[1] == 8 && Number[2] == 0) {
       switch (Number[3]) {
         case "2":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', https://brandcom.ng/wp-content/uploads/2020/11/Glo-Logo.jpg)
           break;
         case "3":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
@@ -86,7 +93,7 @@ function getNetwork(Number) {
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/glo.jpg")
           break;
         case "8":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
           case "9":
             document.getElementsByClassName("network-img")[0].setAttribute('src', "images/9mobile.jpg")
@@ -105,7 +112,7 @@ function getNetwork(Number) {
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/glo.jpg")
           break;
         case "2":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
         case "3":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
@@ -133,7 +140,7 @@ function getNetwork(Number) {
     } else if (Number[1] == 9) {
       switch (Number[3]) {
         case "2":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
         case "3":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
@@ -154,7 +161,7 @@ function getNetwork(Number) {
     if (Number[3] == 7) {
       switch (Number[5]) {
         case "1":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
         case "3":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
@@ -166,7 +173,7 @@ function getNetwork(Number) {
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
           break;
         case "8":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
 
         default:
@@ -176,7 +183,7 @@ function getNetwork(Number) {
     } else if (Number[3] == 8 && Number[4] == 0) {
       switch (Number[5]) {
         case "2":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
         case "3":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
@@ -191,7 +198,7 @@ function getNetwork(Number) {
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/glo.jpg")
           break;
         case "8":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
         case "9":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/9mobile.jpg")
@@ -201,7 +208,7 @@ function getNetwork(Number) {
             document.getElementsByClassName("network-img")[0].setAttribute('src', "unknown/mtn.jpg")
             break;
           }
-        } else if (Number[31] == 8 && Number[4] == 1) {
+        } else if (Number[3] == 8 && Number[4] == 1) {
       switch (Number[5]) {
         case "0":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
@@ -210,7 +217,7 @@ function getNetwork(Number) {
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/glo.jpg")
           break;
         case "2":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
         case "3":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
@@ -238,7 +245,7 @@ function getNetwork(Number) {
     } else if (Number[3] == 9) {
       switch (Number[5]) {
         case "2":
-          document.getElementsByClassName("network-img")[0].setAttribute('src', "images/airtel.jpg")
+          document.getElementsByClassName("network-img")[0].setAttribute('src', airtel)
           break;
         case "3":
           document.getElementsByClassName("network-img")[0].setAttribute('src', "images/mtn.jpg")
