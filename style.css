@@ -137,7 +137,6 @@ img {
   .container{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
   }
 
@@ -154,7 +153,6 @@ img {
   form {
     width: 90%;
     white-space: nowrap;
-    /* background-color: yellow; */
   }
   h3{
     margin: 0;
@@ -163,7 +161,7 @@ img {
   }
   button{
     margin: 0;
-    /* margin-left: 30px; */
+    margin-bottom: 20px;
   }
   p{
     width: inherit;
@@ -173,10 +171,5 @@ img {
 
   img {
     display: block;
-    /* height: 200px;
-    width: 200px;
-    left: 40px;
-    top: 10px;
-    margin: 0px; */
   }
 }
